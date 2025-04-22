@@ -34,7 +34,7 @@ import pickle
 st.title("🛒 Product Recommendation & Clustering System")
 
 # Automatic file loading
-uploaded_file = r"C:\Users\samir\OneDrive\Desktop\Product Recommendation system\ratings.csv"
+uploaded_file = r"ratings.csv"
 
 try:
     df = pd.read_csv(uploaded_file)
