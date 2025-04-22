@@ -15,7 +15,7 @@ import pickle
 import warnings
 warnings.filterwarnings('ignore')
 
-model = pickle.load(open(r'C:\Users\samir\OneDrive\Desktop\Product Recommendation system\Product_Recommendation.pkl', 'rb'))
+model = pickle.load(open(r'Product_Recommendation.pkl', 'rb'))
 model
 
 import streamlit as st
